@@ -17,6 +17,8 @@
 * Url.Parse is freely distributable under the terms of an MIT-style license.
 */
 
+if (typeof Url == 'undefined') var Url = {};
+
 /**
  * Creates an Parse instance
  *
