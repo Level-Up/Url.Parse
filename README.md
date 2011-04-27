@@ -1,10 +1,8 @@
-    @projectDescription	@aaronbassett's fork of Poly9's polyvalent URLParser class
-    
-    @author	Aaron Bassett - me@aaronbassett.com - http://aaronbassett.com
-    @version	0.2 
-    @namespace	Url
-    
-    Usage: var u = new Url.Parse('http://user:password@example.com/pathname?arguments=1#fragment');
+# URLParser
+@aaronbassett's fork of [Poly9's polyvalent URLParser](http://ajaxian.com/archives/poly9s-polyvalent-javascript-url-parser) class.
+
+# Usage
+    var u = new Url.Parse('http://user:password@example.com/pathname?arguments=1#fragment');
     u.getHost() == 'example.com';
     u.getProtocol() == 'http';
     u.getPathname() == '/pathname';
@@ -12,5 +10,29 @@
     u.getFragment() == 'fragment';
     u.getUsername() == 'user';
     u.getPassword() == 'password';
-    
-    Url.Parse is freely distributable under the terms of an MIT-style license.
+
+# Authors
+- Poly9
+- Aaron Bassett <me@aaronbassett.com>
+- Level Up - <hello@thisislevelup.com>
+
+# License
+Copyright (C) 2011 by Level Up
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
